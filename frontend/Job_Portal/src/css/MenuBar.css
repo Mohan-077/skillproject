@@ -1,0 +1,59 @@
+.menubar {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .menuheader {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menuheader img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .menulist {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .menulist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menulist ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menulist ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .menulist ul li span {
+    flex-grow: 1; /* Ensure text takes up remaining space */
+  }
+  
+  .menulist ul li:hover {
+    background-color: #007bff;
+    color: white;
+  }

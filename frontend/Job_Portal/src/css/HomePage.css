@@ -1,0 +1,259 @@
+#base{
+    width: 100%;
+    height: 100vh;
+
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 153, 51);
+    }
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+   /* background-color: rgb(242, 241, 238); */
+    
+    }
+    #footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(19, 136, 8);
+    }
+    .logo{
+        width: 100px;
+        position: relative;
+        top: 5px;
+        margin-left: 10px;
+    }
+
+    .signinIcon{
+        width: 24px;
+        position: relative;
+        float: right;
+        top: 20px;
+        margin-right: 10px;
+        /* 2300031585 */
+    }
+    
+    .signinText{
+      
+        position: relative;
+        float: right;
+        top: 25px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .signinText:hover{
+        
+        text-decoration: underline;
+    }
+.socialmediaIcon{
+    width: 22px;
+    position: relative;
+    float: right;
+    top: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.copyrightText{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 10pt;
+    color: aliceblue;
+}
+
+.text1{
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(232, 143, 35);
+    }
+    
+    .text2{
+         position: relative;
+         top: 50px;
+         margin-left: 10px;
+         display: block;
+         font-size: 32pt;
+         font-weight: bold;
+         }
+    
+    .text3{
+         position: relative;
+         top: 50px;
+         margin-left: 10px;
+         display: block;
+         font-size: 14pt;
+         font-weight: bold;
+         }
+    
+    
+    .searchBar{
+         position: relative;
+         top: 70px;
+         margin-left: 10px;
+         display: block;
+         background: white;
+         border-radius: 15px;
+         width: 700px;
+         height: 40px;
+         padding: 10px;
+        
+    }
+    
+    
+    .searchText{
+         width: 300px;
+         height: 40px;
+         border: none;
+         border-right: 1px solid gray;
+         font-size: 12pt;     
+    }
+    
+    
+    .searchLocation{
+         width: 300px;
+         height: 40px;
+         border: none;
+         border-right: 1px solid gray;
+         font-size: 12pt;     
+    }
+    
+    
+    .searchButton{
+        
+    
+         height: 40px;
+         background: rgb(6,3,141);
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: white;
+    }
+
+    /* sign in popup overall css */
+
+#popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999; /* existing text paina display avvadaniki */
+    display: none;
+}
+
+.popupWindow{
+width: 300px;
+height: 450px;
+position: relative;
+background: rgb(242, 241, 238);
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 5px;
+}
+#popupHeader{
+width: 100%;
+height: 60px;
+line-height: 60px;
+background: rgb(161, 22, 64);
+color: black;
+font-size: 14pt;
+font-weight: bold;
+text-align: center;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#signin{
+    width: calc(100% - 10px);
+    height: calc(100% - 60px);
+    background: rgb(242, 241, 238);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+
+.usernameLabel{
+    display: block;
+    padding: 40px 0px 3px 0px;
+}
+
+
+input{
+    width: calc(100% - 5px);
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.passwordLabel{
+    display: block;
+    padding: 10px 0px 3px 0px;
+}
+
+.forgotPassword{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.forgotPassword label{
+    color: rgb(179, 119, 60);
+    cursor: pointer;
+}
+
+.signinButton{
+    width: 100%;
+    height: 35px;
+    background: rgb(20, 58, 147);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.signinButton:hover{
+    background: rgb(66, 8, 76);
+}
+.div1{
+    width: 100%;
+    height: 50px;
+}
+.div2{
+    width: 100%;
+    font-size: 10pt;
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+.div2 label{
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    color:red ;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.div2 label:hover{
+    color:rgb(9, 103, 40);
+}
+
+#signup{
+    width: calc(100%-10px);
+    height: (100% -60px);
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display:none;
+}
+
